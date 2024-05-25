@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "autowallet"
+version = "0.1.0"
+description = ""
+authors = ["alex-ib <alejo1ibarra@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+fastapi = "^0.111.0"
+uvicorn = "^0.29.0"
+python-jose = "^3.3.0"
+SQLAlchemy = "^2.0.30"
+python-dotenv = "^1.0.1"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.2.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
